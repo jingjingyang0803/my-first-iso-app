@@ -11,6 +11,13 @@
 		E378D9962A058D3700B2AB20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E378D9952A058D3700B2AB20 /* ContentView.swift */; };
 		E378D9982A058D3700B2AB20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E378D9972A058D3700B2AB20 /* Assets.xcassets */; };
 		E378D99B2A058D3700B2AB20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E378D99A2A058D3700B2AB20 /* Preview Assets.xcassets */; };
+		E378D9A22A058D7700B2AB20 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = E378D9A12A058D7700B2AB20 /* Country.swift */; };
+		E378D9A42A058D9A00B2AB20 /* MembershipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E378D9A32A058D9A00B2AB20 /* MembershipView.swift */; };
+		E378D9A62A058DBC00B2AB20 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E378D9A52A058DBC00B2AB20 /* ButtonView.swift */; };
+		E378D9A82A058E0400B2AB20 /* MemberDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E378D9A72A058E0400B2AB20 /* MemberDetailsView.swift */; };
+		E378D9AA2A058E2900B2AB20 /* CountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E378D9A92A058E2900B2AB20 /* CountryView.swift */; };
+		E378D9AC2A058ED400B2AB20 /* CountryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E378D9AB2A058ED400B2AB20 /* CountryManager.swift */; };
+		E378D9AE2A058F1400B2AB20 /* CountryListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E378D9AD2A058F1400B2AB20 /* CountryListItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		E378D9952A058D3700B2AB20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E378D9972A058D3700B2AB20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E378D99A2A058D3700B2AB20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E378D9A12A058D7700B2AB20 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		E378D9A32A058D9A00B2AB20 /* MembershipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipView.swift; sourceTree = "<group>"; };
+		E378D9A52A058DBC00B2AB20 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		E378D9A72A058E0400B2AB20 /* MemberDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberDetailsView.swift; sourceTree = "<group>"; };
+		E378D9A92A058E2900B2AB20 /* CountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryView.swift; sourceTree = "<group>"; };
+		E378D9AB2A058ED400B2AB20 /* CountryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryManager.swift; sourceTree = "<group>"; };
+		E378D9AD2A058F1400B2AB20 /* CountryListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +67,15 @@
 			children = (
 				E378D9932A058D3700B2AB20 /* EUmembers_iosApp.swift */,
 				E378D9952A058D3700B2AB20 /* ContentView.swift */,
+				E378D9AD2A058F1400B2AB20 /* CountryListItem.swift */,
+				E378D9AB2A058ED400B2AB20 /* CountryManager.swift */,
 				E378D9972A058D3700B2AB20 /* Assets.xcassets */,
 				E378D9992A058D3700B2AB20 /* Preview Content */,
+				E378D9A92A058E2900B2AB20 /* CountryView.swift */,
+				E378D9A72A058E0400B2AB20 /* MemberDetailsView.swift */,
+				E378D9A32A058D9A00B2AB20 /* MembershipView.swift */,
+				E378D9A52A058DBC00B2AB20 /* ButtonView.swift */,
+				E378D9A12A058D7700B2AB20 /* Country.swift */,
 			);
 			path = EUmembers_ios;
 			sourceTree = "<group>";
@@ -138,6 +159,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E378D9962A058D3700B2AB20 /* ContentView.swift in Sources */,
+				E378D9A22A058D7700B2AB20 /* Country.swift in Sources */,
+				E378D9AE2A058F1400B2AB20 /* CountryListItem.swift in Sources */,
+				E378D9A62A058DBC00B2AB20 /* ButtonView.swift in Sources */,
+				E378D9A82A058E0400B2AB20 /* MemberDetailsView.swift in Sources */,
+				E378D9A42A058D9A00B2AB20 /* MembershipView.swift in Sources */,
+				E378D9AA2A058E2900B2AB20 /* CountryView.swift in Sources */,
+				E378D9AC2A058ED400B2AB20 /* CountryManager.swift in Sources */,
 				E378D9942A058D3700B2AB20 /* EUmembers_iosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
